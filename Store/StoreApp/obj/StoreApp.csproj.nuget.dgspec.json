@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hakan\\Desktop\\Store\\StoreApp\\StoreApp.csproj": {}
+    "C:\\Users\\hakan\\Documents\\GitHub\\ASP.NET_Core_MVC_Store_Project\\Store\\StoreApp\\StoreApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hakan\\Desktop\\Store\\StoreApp\\StoreApp.csproj": {
+    "C:\\Users\\hakan\\Documents\\GitHub\\ASP.NET_Core_MVC_Store_Project\\Store\\StoreApp\\StoreApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hakan\\Desktop\\Store\\StoreApp\\StoreApp.csproj",
+        "projectUniqueName": "C:\\Users\\hakan\\Documents\\GitHub\\ASP.NET_Core_MVC_Store_Project\\Store\\StoreApp\\StoreApp.csproj",
         "projectName": "StoreApp",
-        "projectPath": "C:\\Users\\hakan\\Desktop\\Store\\StoreApp\\StoreApp.csproj",
+        "projectPath": "C:\\Users\\hakan\\Documents\\GitHub\\ASP.NET_Core_MVC_Store_Project\\Store\\StoreApp\\StoreApp.csproj",
         "packagesPath": "C:\\Users\\hakan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hakan\\Desktop\\Store\\StoreApp\\obj\\",
+        "outputPath": "C:\\Users\\hakan\\Documents\\GitHub\\ASP.NET_Core_MVC_Store_Project\\Store\\StoreApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hakan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
